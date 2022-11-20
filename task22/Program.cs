@@ -15,8 +15,8 @@ void Qaudro(int num)
     while (num1 <= num)
     {
         int result = num1 * num1;
-        Console.Write($"{num1}  ");
-        Console.WriteLine(result);
+        Console.WriteLine($"{num1,   4} {result,   4} ");
+        
         num1++;
     }
 }
